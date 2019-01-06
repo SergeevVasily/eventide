@@ -147,3 +147,20 @@ h2{
         font-size: 14px;
     }
 }
+/*=============================Speakers=================================*/
+
+#speakers{
+    padding: 90px 0;
+    border-bottom: 2px solid #f0f0f1;
+}
+
+#speakers h2 {
+    color: #828689;
+}
+
+.large{
+    font-family: Ubuntu, sans-serif;
+    color: #828286;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
