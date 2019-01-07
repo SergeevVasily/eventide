@@ -9,7 +9,16 @@ html, body{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+	.speakers-head,
+    .speakers-footer{
+        margin: 20px 0;
+    }
+    #speakers{
+        padding: 20px 0;
+    }
+    .row-item-col{
+        margin: 20px 0;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -163,4 +172,109 @@ h2{
     color: #828286;
     font-size: 22px;
     margin-bottom: 20px;
+}
+
+.section-tabs{
+    border: 3px solid #ececec;
+    border-radius: 2px;
+
+}
+
+.section-tabs .nav-tabs .notactive{
+    background: #ececec;
+    color: #828689;
+}
+
+.section-tabs .nav-tabs .active{
+    color: #828689;
+}
+
+.section-tabs .nav-tabs a,
+.section-tabs .nav-tabs.active a,
+.section-tabs .nav-tabs.active a:focus,
+.section-tabs .nav-tabs.active a:hover{
+    border-radius: 0;
+    border: none;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    outline: 0;
+
+}
+
+.section-tabs .tab-content{
+    padding: 25px 20px;
+}
+
+.section-tabs .tab-content ul{
+    padding-left: 10px;
+}
+
+.section-tabs .tab-content ul li{
+    line-height: 30px;
+}
+
+.section-tabs .tab-content ul li i{
+    font-size: 15px;
+    color: #2cc7c1;
+    margin-right: 10px;
+}
+
+#speakers .speakers-head {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.speakers-head h2{
+    color: #6a7079;
+    position: relative;
+}
+.speakers h3{
+    color: #777a7d;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.speakers-footer{
+    margin-top: 70px;
+
+}
+
+.item > div{
+    position: relative;
+}
+
+.front{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+
+}
+
+.back{
+    width: 140px;
+    height: 140px;
+    background: #6bd8d3;
+    display: inline-block;
+    border-radius: 50%;
+    opacity: 0;
+}
+.back i{
+    line-height: 140px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.item:hover .front{
+    opacity: 0.2;
+}
+
+.item:hover .back{
+    opacity: 1;
+}
+
+.item:hover h3{
+    color: #6bd8d3;
 }
