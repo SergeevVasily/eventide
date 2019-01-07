@@ -181,12 +181,14 @@ h2{
 }
 
 .section-tabs .nav-tabs .notactive{
-    background: #ececec;
-    color: #828689;
+    background: lightgrey;
+    color: white;
 }
 
 .section-tabs .nav-tabs .active{
     color: #828689;
+     background: white;
+
 }
 
 .section-tabs .nav-tabs a,
@@ -294,4 +296,41 @@ h2{
     top: 50%;
     margin-left: -150px;
     margin-top: -150px;
+}
+
+.link{
+    text-transform: uppercase;
+}
+
+.time{
+    background: #2cc7c1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 2px;
+    margin-right: 25px;
+}
+
+.collapse-link{
+    color: #747a84;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.collapse-link:hover{
+    color: #747a84;
+
+}
+
+.collapse-state{
+   color: #2cc7c1;
+}
+
+.collapse p{
+    color: #999;
+}
+
+.tab-collapse{
+    margin-bottom: 20px;
 }
