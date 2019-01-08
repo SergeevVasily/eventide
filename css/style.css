@@ -384,3 +384,41 @@ h2{
     border: 2px solid #95e3e0;
     background: #fff;
 }
+
+
+.select2-container--default .select2-selection--single{
+    height: 44px;
+    text-align: left;
+    background: #efefef;
+}
+/*поле select - вертикальное выравнивание + цвет*/
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 44px;
+    color: #bebebe;
+}
+/*фон открытого поля select*/
+.select2-container--open .select2-selection--single{
+    background: #2cc7c1;
+}
+/*цвет открытого поля select*/
+.select2-container--open .select2-selection--single .select2-selection__rendered{
+    color: #fff;
+}
+/*выравнивание стрелки*/
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 10px;
+}
+/*скрываем placeholder*/
+li.select2-results__option:first-child{
+    display: none;
+}
+/*фон списка*/
+.select2-results__options,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option[aria-selected="true"]{
+    background: #525b64;
+}
+/*цвет списка*/
+.select2-results__options{
+    color: #2cc7c1;
+}

@@ -3,6 +3,13 @@ $(function () {
        $(this).prev().find('.fa').removeClass().addClass('fas fa-minus-circle')
    });
 
-   $('#myForm').validator()
+ $('.form-sel').select2(
+     {
+         minimumResultsForSearch: Infinity
+     }
+ );
+
+
+
 });
 
