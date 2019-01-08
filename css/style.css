@@ -360,3 +360,27 @@ h2{
 .carousel-indicators li.active{
     background: white;
 }
+
+#form{
+    padding: 90px 0;
+    background: #f3f3f3;
+}
+
+.section-form{
+    background: #fff;
+    padding: 40px;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+
+.section-form input,
+.section-form select{
+    height: 44px;
+    background: #efefef;
+    padding-right: 25px;
+}
+
+.section-form .form-control:focus{
+    border: 2px solid #95e3e0;
+    background: #fff;
+}
