@@ -13,7 +13,10 @@ html, body{
     .speakers-footer{
         margin: 20px 0;
     }
-    #speakers{
+    #speakers,
+    #events,
+    #form,
+    #sponsors{
         padding: 20px 0;
     }
     .row-item-col{
@@ -27,13 +30,24 @@ html, body{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	
+    .btn-form{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #sponsors img{
+        margin-bottom: 20px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .row-item{
         margin-top: 10px;
+    }
+    .btn-form{
+        margin-top: 20px;
+        width: 100%;
     }
 }
 
@@ -127,6 +141,7 @@ h2{
 }
 .btn-primary{
     background: #7ea4e8;
+
 }
 
 .btn-primary:hover{
@@ -160,6 +175,8 @@ h2{
     .section-btn{
         font-size: 14px;
     }
+
+
 }
 /*=============================Speakers=================================*/
 
@@ -361,7 +378,8 @@ h2{
     background: white;
 }
 
-#form{
+#form{align-self: center;
+    align-content: center;
     padding: 90px 0;
     background: #f3f3f3;
 }
@@ -371,6 +389,10 @@ h2{
     padding: 40px;
     border-radius: 2px;
     margin-top: 50px;
+    position: relative;
+    align-content: center;
+    align-self: center;
+    alignment: center;
 }
 
 .section-form input,
@@ -386,10 +408,12 @@ h2{
 }
 
 
-.select2-container--default .select2-selection--single{
+.select2-container--default .select2-selection--single .select2-selection__rendered{
     height: 44px;
     text-align: left;
     background: #efefef;
+    border: 1px solid #bebebe;
+    border-radius: 2px;
 }
 /*поле select - вертикальное выравнивание + цвет*/
 .select2-container--default .select2-selection--single .select2-selection__rendered{
@@ -421,4 +445,10 @@ li.select2-results__option:first-child{
 /*цвет списка*/
 .select2-results__options{
     color: #2cc7c1;
+}
+
+#sponsors{
+    background: #fff;
+    text-align: center;
+    padding: 60px 0;
 }
